@@ -1,5 +1,6 @@
 # Do not commit _site directory
 ##################################
+_site
 src/_site
 
 # IntelliJ files
