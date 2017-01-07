@@ -1,6 +1,8 @@
 name: CCIS1301  # CHANGE ME
 baseurl: /morea-core-custom # CHANGE ME
+github_org_url: https://github.com/htc-ccis1301-spring2017 # CHANGE ME
 
+# The following properties should not need to change semester to semester.
 markdown: kramdown
 kramdown:
   hard_wrap: false
@@ -22,12 +24,6 @@ gems:
   - jekyll-gist
   - jemoji
 
-# The following properties are optional.
-# See the User Guide (http://morea-framework.github.io/userguide.html) for more info.
-
 morea_course: CCIS 1301
 morea_domain: http://htc-ccis1301.github.io/
 morea_google_analytics_tracking_id: "UA-63189236-5"
-
-#morea_head_breadcrumb_link: "http://cnn.com"
-#morea_head_breadcrumb_label: "CNN Site"
