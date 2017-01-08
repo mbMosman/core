@@ -1,6 +1,7 @@
 name: CCIS1301  # CHANGE ME
 baseurl: /morea-core-custom # CHANGE ME
 github_org_url: https://github.com/htc-ccis1301-spring2017 # CHANGE ME
+github_org_name: "HTC CCIS1301 Spring 2017" # CHANGE ME
 
 # The following properties should not need to change semester to semester.
 markdown: kramdown
