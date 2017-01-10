@@ -1,11 +1,15 @@
-name: Morea CORE (Change me)
+name: "CHANGE ME"  # CHANGE ME
+baseurl: /morea-core-custom # CHANGE ME
+github_org_url: https://github.com/mbmosman/morea-core # CHANGE ME
+github_org_name: "CHANGE ME" # CHANGE ME
+
+# The following properties should not need to change semester to semester.
 markdown: kramdown
 kramdown:
   hard_wrap: false
   input: GFM
   syntax_highlighter: rouge
 mathjax: true
-baseurl: /core
 exclude: [morea]
 morea_theme: spacelab
 morea_navbar_items:
@@ -15,14 +19,13 @@ morea_navbar_items:
   - Readings
   - Experiences
   - Assessments
-  #- Schedule
+  - Schedule
 
-# The following properties are optional.
-# See the User Guide (http://morea-framework.github.io/userguide.html) for more info.
+gems:
+  - jekyll-gist
+  - jemoji
 
-# morea_course: ics311
-# morea_domain: http://morea-framework.github.io/
-# morea_google_analytics_tracking_id: "<your tracking id here>"
-
-#morea_head_breadcrumb_link: "http://cnn.com"
-#morea_head_breadcrumb_label: "CNN Site"
+# CHANGE for each course template, but no need to change each semester
+morea_course: CHANGE ME
+morea_domain: http://changeme.github.io/
+morea_google_analytics_tracking_id: "UA-XXXXXXXX-X"
